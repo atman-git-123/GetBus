@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Form</title>
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-danger">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./singup.html">
+          <img src="logo.png" class="img-fluid" alt="Logo">
+        </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">        
+        <ul class="navbar-nav">
+          &nbsp;
+          <div class="position-absolute top-10 end-0">
+          <a href="index.html" button type="button" class="btn btn-danger"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+        <div class="container-fluid">
+          <div class="row d-flex justify-content-center align-items-center">
+            <div class="col col-xl-10">
+             
+                <div class="row g-0">
+                  <div class="col-6 col-lg-5 d-none d-md-block">
+                    <img src="RegisterImage.png"
+                      alt="login form" class="img-fluid w-100 mt-5 p-4 m-4" style="border-radius: 1rem 0 0 1rem;" />
+                  </div>
+                  <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                    <div class="card-body p-4 p-lg-5 text-black">
+      
+                      <form>
+      
+                        <div class="d-flex align-items-center mb-3 pb-1">
+                          <span class="h1 fw-bold mb-0"></span>
+                        </div>
+      
+                        <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h3>
+      
+                        <div class="form-outline mb-4">
+                          <input type="email" id="form2Example17" class="form-control form-control-lg" />
+                          <label class="form-label" for="form2Example17">Email address</label>
+                        </div>
+      
+                        <div class="form-outline mb-4">
+                          <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                          <label class="form-label" for="form2Example27">Repeat your Password</label>
+                        </div>
+
+                        <div class="form-outline mb-4">
+                            <input type="password" id="form2Example27" class="form-control form-control-lg" />
+                            <label class="form-label" for="form2Example27">Password</label>
+                          </div>
+      
+                        <div class="pt-1 mb-4">
+                          <button class="btn btn-dark btn-lg btn-block" type="button" data-bs-toggle="modal" data-bs-target="#myModal">REGISTER</button>
+                          <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h1 class="modal-title fs-5" id="myModalLabel">Modal title</h1>
+                                </div>
+                                <div class="modal-body">
+                                  Your Account has been Registered Successfully!!!
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <a class="btn btn-primary" href="LoginForm.html" role="button">Login</a> 
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+	    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
